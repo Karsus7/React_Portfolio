@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../components/Hero';
+import Headline from '../components/Headline';
 import Content from '../components/Content';
 
 import Me from '../assets/images/Me.png';
@@ -8,7 +8,7 @@ function AboutPage(props) {
 
     return(
         <div>
-            <Hero title={props.title} />
+            <Headline title={props.title} />
 
             <Content>
             <div className="col-md-6 col-lg-4 col-xl-3 d-none d-md-block float-left mr-4" >

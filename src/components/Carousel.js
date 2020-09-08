@@ -1,4 +1,4 @@
-// This File provides 
+// This File provides the images and links to the profile page
 import React from 'react';
 
 import Card from '../components/Card';
@@ -51,7 +51,7 @@ class Carousel extends React.Component {
                     subTitle: 'A website for taking notes',
                     imgSrc: noteTaker,
                     link: 'https://github.com/Karsus7/Note_Taker',
-                    link2: 'https://sheltered-spire-02337.herokuapp.com/',
+                    link2: 'https://sheltered-spire-02337.Headlinekuapp.com/',
                     selected: false
                 },
                 {
@@ -69,7 +69,7 @@ class Carousel extends React.Component {
                     subTitle: 'A website for organizing websites',
                     imgSrc: webOrganizer,
                     link: 'https://github.com/Karsus7/Web_Organizer',
-                    link2: 'https://boiling-wave-32724.herokuapp.com/',
+                    link2: 'https://boiling-wave-32724.Headlinekuapp.com/',
                     selected: false
                 },
 
@@ -96,7 +96,7 @@ class Carousel extends React.Component {
     }
 
 
-    makeItems = (items) => {
+    renderItems = (items) => {
         return items.map(item => {
             return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
         })
@@ -107,7 +107,7 @@ class Carousel extends React.Component {
         return(
             <Container fluid={true}>
                 <Row className="justify-content-around">
-                    {this.makeItems(this.state.items)}
+                    {this.renderItems(this.state.items)}
                 </Row>
             </Container>
         );

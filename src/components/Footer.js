@@ -16,7 +16,7 @@ function Footer() {
                         William Broussard
                     </Col>
                     <Col className="p-0" md={3} sm={12}>
-                    <a href={resume} target="_blank" class="btn btn-light">Check out my Resume</a>
+                    <a href={resume} target="_blank" rel="noopener noreferrer" class="btn btn-light">Check out my Resume</a>
                     </Col>
                 </Row>
             </Container>
