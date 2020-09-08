@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.b04f6d08.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.27679794.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.27679794.chunk.js.map",
+    "runtime~main.js": "/React_Portfolio/static/js/runtime~main.47646755.js",
+    "runtime~main.js.map": "/React_Portfolio/static/js/runtime~main.47646755.js.map",
+    "static/css/2.207c7e13.chunk.css": "/React_Portfolio/static/css/2.207c7e13.chunk.css",
+    "static/js/2.466339a0.chunk.js": "/React_Portfolio/static/js/2.466339a0.chunk.js",
+    "static/js/2.466339a0.chunk.js.map": "/React_Portfolio/static/js/2.466339a0.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "precache-manifest.61ecd6105e9bc04ba8bc50e59471f10c.js": "/React_Portfolio/precache-manifest.61ecd6105e9bc04ba8bc50e59471f10c.js",
+    "service-worker.js": "/React_Portfolio/service-worker.js",
+    "static/css/2.207c7e13.chunk.css.map": "/React_Portfolio/static/css/2.207c7e13.chunk.css.map",
+    "static/css/main.b04f6d08.chunk.css.map": "/React_Portfolio/static/css/main.b04f6d08.chunk.css.map",
+    "static/media/Day_Planner.png": "/React_Portfolio/static/media/Day_Planner.fb92f7da.png",
+    "static/media/Employee_Summary.png": "/React_Portfolio/static/media/Employee_Summary.a58364d0.png",
+    "static/media/Foodies.png": "/React_Portfolio/static/media/Foodies.9356c694.png",
+    "static/media/Me.png": "/React_Portfolio/static/media/Me.9295eb7f.png",
+    "static/media/Note_Taker.png": "/React_Portfolio/static/media/Note_Taker.f351021d.png",
+    "static/media/Weather_Dashboard.png": "/React_Portfolio/static/media/Weather_Dashboard.5e30abd8.png",
+    "static/media/Web_Organizer.png": "/React_Portfolio/static/media/Web_Organizer.d7b66acc.png",
+    "static/media/William_Broussard_Resume.pdf": "/React_Portfolio/static/media/William_Broussard_Resume.6973a2b5.pdf"
+  }
+}
