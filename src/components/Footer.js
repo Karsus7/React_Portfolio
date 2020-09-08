@@ -3,6 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import resume from "../assets/images/William_Broussard_Resume.pdf"
+
+
 function Footer() {
 
     return(
@@ -13,7 +16,7 @@ function Footer() {
                         William Broussard
                     </Col>
                     <Col className="p-0" md={3} sm={12}>
-                    <a href="src\assets\images\William_Broussard_Resume.pdf" target="_blank" class="btn btn-light">Check out my Resume</a>
+                    <a href={resume} target="_blank" class="btn btn-light">Check out my Resume</a>
                     </Col>
                 </Row>
             </Container>
