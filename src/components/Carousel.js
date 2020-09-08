@@ -1,12 +1,17 @@
+// This File provides 
 import React from 'react';
 
 import Card from '../components/Card';
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+// Pictures
 import dayPlanner from '../assets/images/Day_Planner.png';
 import employee from '../assets/images/Employee_Summary.png';
 import foodies from '../assets/images/Foodies.png';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+import noteTaker from '../assets/images/Note_Taker.png';
+import weather from '../assets/images/Weather_Dashboard.png';
+import webOrganizer from '../assets/images/Web_Organizer.png';
+
 
 class Carousel extends React.Component {
 
@@ -20,21 +25,51 @@ class Carousel extends React.Component {
                     subTitle: 'A useful way to plan your day',
                     imgSrc: dayPlanner,
                     link: 'https://github.com/Karsus7/Day_Planner',
+                    link2: 'https://karsus7.github.io/Day_Planner/',
                 },
                 {
                     id: 1,
-                    title: 'Day Planner',
-                    subTitle: 'The cookbook for developers',
+                    title: 'Employee Summary',
+                    subTitle: 'A program for keeping track of employees',
                     imgSrc: employee,
-                    link: 'https://github.com/cjmartin007/Foodies_Recipes',
+                    link: 'https://github.com/Karsus7/Employee_Summary',
+                    link2: 'https://github.com/Karsus7/Employee_Summary',
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'Day Planner',
-                    subTitle: 'The cookbook for developers',
+                    title: 'Foodies',
+                    subTitle: 'A website for looking up food and recipes',
                     imgSrc: foodies,
                     link: 'https://github.com/cjmartin007/Foodies_Recipes',
+                    link2: 'https://cjmartin007.github.io/Foodies_Recipes/',
+                    selected: false
+                },
+                {
+                    id: 3,
+                    title: 'Note Taker',
+                    subTitle: 'A website for taking notes',
+                    imgSrc: noteTaker,
+                    link: 'https://github.com/Karsus7/Note_Taker',
+                    link2: 'https://sheltered-spire-02337.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 4,
+                    title: 'Weather Dashboard',
+                    subTitle: 'A custom made weather app',
+                    imgSrc: weather,
+                    link: 'https://github.com/Karsus7/Weather_Dashboard',
+                    link2: 'https://karsus7.github.io/Weather_Dashboard/',
+                    selected: false
+                },
+                {
+                    id: 5,
+                    title: 'Web Organizer',
+                    subTitle: 'A website for organizing websites',
+                    imgSrc: webOrganizer,
+                    link: 'https://github.com/Karsus7/Web_Organizer',
+                    link2: 'https://boiling-wave-32724.herokuapp.com/',
                     selected: false
                 },
 
@@ -43,7 +78,7 @@ class Carousel extends React.Component {
     }
 
 
-    handleCardClick = (id, card) => {
+    handleCardClick = (id) => {
 
         let items = [...this.state.items];
 
