@@ -13,8 +13,7 @@ function Footer() {
                         William Broussard
                     </Col>
                     <Col className="p-0" md={3} sm={12}>
-                    <a href="images\William Broussard Resume.com.microsoft.word.openxmlformats.wordprocessingml.document.com.
-microsoft.word.openxmlformats.w.pdf" target="_blank" class="btn btn-light">Resume</a>
+                    <a href="src\assets\images\William_Broussard_Resume.pdf" target="_blank" class="btn btn-light">Check out my Resume</a>
                     </Col>
                 </Row>
             </Container>

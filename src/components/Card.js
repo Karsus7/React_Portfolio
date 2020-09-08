@@ -1,4 +1,4 @@
-// This file sets all of t
+// This file sets all of the values for the Carousel cards
 import React from 'react';
 import CardInfo from '../components/CardInfo';
 
