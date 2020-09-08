@@ -18,16 +18,16 @@ class App extends React.Component {
     this.state = {
       title: 'William Broussard',
       headerLinks: [
-        { title: 'Home', path: '/' },
-        { title: 'About', path: '/about' },
+        { title: 'About', path: '/' },
+        { title: 'Portfolio', path: '/portfolio' },
         { title: 'Contact', path: '/contact' }
       ],
-      home: {
-        title: 'My Portfolio',
-        subTitle: 'Checkout my projects below',
-      },
       about: {
         title: 'About Me'
+      },
+      portfolio: {
+        title: 'My Portfolio',
+        subTitle: 'Checkout my projects below',
       },
       contact: {
         title: 'Contact Me'
@@ -46,19 +46,18 @@ class App extends React.Component {
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Portfolio</Link>
                 <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/portfolio">Portfolio</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="/" exact render={() => <PortfolioPage title={this.state.home.title} subTitle={this.state.home.subTitle} />} />
-          <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/" exact render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/portfolio" render={() => <PortfolioPage title={this.state.portfolio.title} subTitle={this.state.portfolio.subTitle} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
           
           <Footer />
-
         </Container>
       </Router>
     );

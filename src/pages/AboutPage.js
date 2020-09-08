@@ -14,7 +14,7 @@ function AboutPage(props) {
             <div className="col-md-6 col-lg-4 col-xl-3 d-none d-md-block float-left mr-4" >
             <img src={Me} class="img-fluid img-thumbnail" alt="William Broussard" title="Picture of myself"/>
             </div>
-            <p>Hello, my name is William Broussard. I'm a full stack engineer with experience in 
+            <p>Hello, my name is William Broussard. I'm a full stack web designer with experience in 
                 Express JS, Node JS, MySQL, MongoDB, and React.</p>
             <p></p>
 
