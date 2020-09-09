@@ -19,7 +19,7 @@ class App extends React.Component {
       title: 'William Broussard',
       headerLinks: [
         { title: 'About', path: '/' },
-        { title: 'About', path: '/ReactPortfolio/' },
+        { title: 'About', path: '/React_Portfolio/' },
         { title: 'Portfolio', path: '/portfolio' },
         { title: 'Contact', path: '/contact' }
       ],
@@ -47,7 +47,7 @@ class App extends React.Component {
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/ReactPortfolio/">About</Link>
+                <Link className="nav-link" to="/React_Portfolio/">About</Link>
                 <Link className="nav-link" to="/portfolio">Portfolio</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
               </Nav>
