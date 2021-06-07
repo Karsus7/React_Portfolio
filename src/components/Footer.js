@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import resume from "../assets/images/William_Broussard_Resume.pdf"
+import resume from "../assets/images/William Broussard Resume.pdf"
 
 
 function Footer() {

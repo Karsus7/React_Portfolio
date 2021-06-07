@@ -1,7 +1,7 @@
 import React from "react"
 import Headline from '../components/Headline';
 
-import resume from "../assets/images/William_Broussard_Resume.pdf"
+import resume from "../assets/images/William Broussard Resume.pdf"
 
 function Contact(props) {
 
